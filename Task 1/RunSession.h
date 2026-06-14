@@ -8,7 +8,7 @@
 #include "ShopSystem.h"
 
 // RunSession owns the invariant phase order.
-// It does NOT contain scoring, reward, or input logic.
+// It does not contain scoring, reward, or input logic.
 class RunSession {
 private:
     IInputGenerator* inputGen;
